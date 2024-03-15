@@ -19,3 +19,16 @@ console.log(x)
 
 x=sum
 console.log(x(10,10))
+
+// Montando tabuada dinâmica
+//var numero = parseInt(prompt("Digite o que deseja multiplicar: "));
+//var multiplicador = parseInt(prompt("Digite até quanto deseja multiplicar: "));
+// Exemplo
+// 5 x 0 = 0
+function calcularTabuada(numero, multiplicador){
+    for(i = 0; i <= multiplicador; i++){
+        console.log(numero + " x " + i + " = " + (numero*i));
+    }
+}
+
+calcularTabuada(5,11);
