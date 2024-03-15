@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Inputs e Outputs - JS</title>
+</head>
+<body>
+    <h1>Inputs e Outputs</h1>
+
+    <script>
+        // Inputs
+        var nome = prompt("Digite seu nome:") // o prompt sempre retorna uma string mesmo que entre com um número
+        alert("Seja bem vinda: " + nome)
+
+        // Outputs
+        alert("Mensagem do Alert");
+        console.log("Teste console");
+        document.write("Escrevendo com Javascript na página HTML" + "<br>");
+        document.write("Seja bem vinda: " + nome + "! <br>");
+
+        var nota1 = parseFloat(prompt("Digite sua primeira nota:"));
+        var nota2 = parseFloat(prompt("Digite sua segunda nota:"));
+        var nota3 = parseFloat(prompt("Digite sua terceira nota:"));
+        var nota4 = parseFloat(prompt("Digite sua quarta nota:"));
+
+        var soma = nota1 + nota2 + nota3 + nota4;
+        var media = soma / 4;
+        document.write("A soma das notas é : "+ soma + "<br>");
+        document.write("A media das notas é : "+ media + "<br>");
+
+        if(media > 6){
+            document.write("APROVADO!!!")
+        }else{
+            document.write("REPROVADO!")
+        }
+        document.write("<br>");
+
+        // Montando tabuada dinâmica
+        var numero = parseInt(prompt("Digite o que deseja multiplicar: "));
+        var multiplicador = parseInt(prompt("Digite até quanto deseja multiplicar: "));
+        // Exemplo
+        // 5 x 0 = 0
+        for(i = 0; i <= multiplicador; i++){
+            document.write(numero + " x " + i + " = " + (numero*i) + "<br>");
+        }
+    </script>
+</body>
+</html>
