@@ -1,5 +1,5 @@
 // CTRL + Alt + n para rodar o code runner
-
+// Function Declaration
 // Função 1
 function sayHello(){
     console.log('Hello!')
