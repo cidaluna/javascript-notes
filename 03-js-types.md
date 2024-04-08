@@ -44,16 +44,16 @@ console.log(curso);
 Criando objeto a partir do construtor:
 ```js
 function Curso2(titulo, instrutora, nivel, dataPublicacao, numeroVisualizacoes){
-    this.titulo = "Javascript Formação Básica",
-    this.instrutora = "Amanda Cavallaro",
-    this.nivel = "1",
-    this.dataPublicacao = false,
-    this.numeroVisualizacoes = 0
-  };
+    this.titulo = titulo,
+    this.instrutora = instrutora,
+    this.nivel = nivel,
+    this.dataPublicacao = dataPublicacao,
+    this.numeroVisualizacoes = numeroVisualizacoes
+  }
   
   var cursos = [
       new Curso2("HTML, CSS, JS", "Amanda C", 1, false, 0),
-      new Curso2("HTML, CSS, JS", "Amanda C", 1, true, 454252)
+      new Curso2("HTML, CSS, JS", "Amanda C", 1, true, 454242352)
   ]
   console.log(cursos);
 ```
