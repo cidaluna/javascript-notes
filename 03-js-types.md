@@ -4,6 +4,7 @@
 
 - Primitive values = undefined, null, boolean, number, bigint, string, symbol.
 - All other values = objects.
+<hr/>
 
 - ### String:
 
@@ -17,13 +18,13 @@ const last = `Gonçalves`;
 
 - ### Number:
 
-  ```js
-  let a = 10 + 10; // addition
-  let b = 20 - 10; // subtraction
-  let c = 10 * 10; // multiplication
-  let d = 100 / 10; // division
-  let e = 1000 % 3; // modulo
-  ```
+```js
+let a = 10 + 10;  // addition
+let b = 20 - 10;  // subtraction
+let c = 10 * 10;  // multiplication
+let d = 100 / 10; // division
+let e = 1000 % 3; // modulo
+```
 
 - ### Object:
 
