@@ -1,4 +1,4 @@
-## JS Variables
+# JS Variables
 
 - **var** 
 - **let**

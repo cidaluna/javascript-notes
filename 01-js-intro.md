@@ -1,7 +1,9 @@
-## JS Intro & Running
+# JS Intro & Running
 
 - Links:
-https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript
+- https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript
+- https://exploringjs.com/impatient-js/
+
 
 
 ```html
