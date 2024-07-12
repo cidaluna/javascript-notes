@@ -181,6 +181,37 @@ console.log(y);  // retorna 55
 
 ![Tipo por valor ou por referência](./images/Javascript-tipo-por-valor-tipo-por-referencia.PNG)
 
+Coerção:
+```js
+console.log('5'- 5);        // retorna 0
+console.log('5' + 5);       // "55"
+console.log(true + 1);      // 2
+console.log(true + true);   // 2
+console.log([] + {});       // "[object Object]"
+console.log([] + []);       // ""
+```
+
+Implícito:
+```js 
+console.log(+'5');           // retorna 5
+console.log(5 + '');         // "5"
+console.log(1234 && 'olá');  // "olá"
+console.log(null || true);   // true
+```
+
+Explícito:
+```js 
+console.log(Number('50'));   // retorna number 50
+console.log(String(50));     // retorna string "50"
+```
+
+```js
+//Public Integer somaNumeros(Integer a, Integer b){ return a + b; }
+function somaNumeros(a,b) { return a + b; }
+somaNumeros(5,3);        // retorna 8
+somaNumeros(5,'abc');    // retorna "5abc"
+```
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ---
