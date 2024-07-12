@@ -1,7 +1,5 @@
 ## 6. Pilha Stack LIFO
 ### LIFO (Last In First Out)
--  [Pilha Stack LIFO](https://github.com/cidaluna/javascript-notes/blob/main/06-js-pilha-LIFO.md)
-
 
 ```js
 // LIFO (Last In First Out) = O último que entrou é o primeiro a sair
