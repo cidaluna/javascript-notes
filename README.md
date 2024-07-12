@@ -13,7 +13,7 @@ Será abordado conceitos básicos com a sintaxe e exemplos práticos para estudo
 2. **[Variables](#2-variables)**
 3. **[Types](#3-types)**
 4. **[Closure](#4-closure)**
-4. **[BOM-DOM](#5-BOM-DOM)**
+5. **[BOM-DOM](#5-BOM-DOM)**
 
 
 ## 1. Intro
@@ -41,7 +41,9 @@ Será abordado conceitos básicos com a sintaxe e exemplos práticos para estudo
 
 - [MDN Docs Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
+
 **[⬆ Back to Top](#table-of-contents)**
+
 ---
 
 ## 2. Variables
@@ -75,6 +77,7 @@ const cool = true;
 ```
 
 **[⬆ Back to Top](#table-of-contents)**
+
 ---
 
 ## 3. Types
@@ -140,6 +143,7 @@ function Curso2(titulo, instrutora, nivel, dataPublicacao, numeroVisualizacoes){
 ```
 
 **[⬆ Back to Top](#table-of-contents)**
+
 ---
 
 ## 4. Closure
@@ -177,7 +181,6 @@ console.log("O resultado: ", resultado);
 
 -  [BOM-DOM](https://github.com/cidaluna/javascript-notes/blob/main/05-js-BOM-DOM.md)
 
-# BOM & DOM
 ## Browser Object Model - BOM
 Modelo de objeto de Navegador - Janela
 
