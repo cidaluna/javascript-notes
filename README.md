@@ -87,8 +87,8 @@ const cool = true;
 
 ![Javascript's type hierarchy](./images/javascript-types-hierarchy.PNG)
 
-- Primitive values = undefined, null, boolean, number, bigint, string, symbol.
-- All other values = objects.
+- Primitive values (tipos de valor) = undefined, null, boolean, number, bigint, string, symbol.
+- All other values (tipos de referência) = objects (functions, arrays, etc).
 <hr/>
 
 - ### String:
@@ -142,6 +142,44 @@ function Curso2(titulo, instrutora, nivel, dataPublicacao, numeroVisualizacoes){
   ]
   console.log(cursos);
 ```
+
+Utilizando o typeof para retorna o tipo da variável no JS:
+```js
+console.log(typeof(true));              // retorna boolean
+console.log(typeof Boolean(true));      // boolean
+console.log(typeof new Boolean(true));  // object - nao use Boolean como construtor
+console.log(typeof 'Cida Luna');        // string
+console.log(typeof 37);                 // number
+
+var doze = new Number(12);     // criado a partir de um construtor do tipo primitivo
+var quinze = doze + 3;
+console.log(quinze);           // 15
+console.log(typeof doze);      // retorna object 
+console.log(typeof quinze);    // number
+```
+
+Tipo por valor:
+```js
+var x = 10;
+var y = x;
+x=20;
+console.log(x,y);   // retorna 20,10
+```
+
+Tipo por referência, utilizando as propriedades de um objeto:
+```js
+var x = { valor: 10 };
+var y = x;
+x.valor = 20;
+// x e y apontam para o mesmo endereço de memória
+console.log(x);  // retorna 20
+console.log(y);  // retorna 20
+y.valor = 55;
+console.log(x);  // retorna 55
+console.log(y);  // retorna 55
+```
+
+![Tipo por valor ou por referência](./images/Javascript-tipo-por-valor-tipo-por-referencia.PNG)
 
 **[⬆ Back to Top](#table-of-contents)**
 
