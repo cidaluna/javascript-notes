@@ -14,6 +14,7 @@ Será abordado conceitos básicos com a sintaxe e exemplos práticos para estudo
 3. **[Types](#3-types)**
 4. **[Closure](#4-closure)**
 5. **[BOM-DOM](#5-BOM-DOM)**
+6. **[Pilha-Stack-LIFO](#6-Pilha-Stack-LIFO)**
 
 
 ## 1. Intro
@@ -21,9 +22,9 @@ Será abordado conceitos básicos com a sintaxe e exemplos práticos para estudo
 -  [Intro](https://github.com/cidaluna/javascript-notes/blob/main/01-js-intro.md)
 
 - Links:
-- https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript
-- https://exploringjs.com/impatient-js/
-
+- [Treinar Javascript no JSBin] (http://jsbin.com/?js,console)
+- [MDN Learn Javascript] (https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript)
+- [Book Online] (https://exploringjs.com/js/book/index.html)
 
 
 ```html
@@ -242,6 +243,35 @@ console.log(CTA.attributes);
 .createTextNode();   // Cria um nó de texto
 .apppendChild();     // Coloca um nó filho dentro de outro
 ```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+## 6. Pilha Stack LIFO
+### LIFO (Last In First Out)
+
+```js
+// LIFO (Last In First Out) = O último que entrou é o primeiro a sair
+
+function funcao1(){
+    funcao2(); // primeiro executa a chamada da funcao2 depois apresenta a linha a seguir do console
+    console.log('Executou a funcao 1');
+}
+
+function funcao2(){
+    funcao3(); // chama a funcao3, executa ela, depois apresenta o console abaixo
+    console.log('Executou a funcao 2');
+}
+
+function funcao3(){
+    console.log('Executou a funcao 3');
+}
+
+funcao1();
+```
+
+![Pilha LIFO](./images/Cida-Luna-Praticando-Javascript-Pilha-LIFO-Frontend.PNG)
 
 **[⬆ Back to Top](#table-of-contents)**
 

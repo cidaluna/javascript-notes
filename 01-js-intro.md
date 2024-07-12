@@ -1,9 +1,9 @@
 # JS Intro & Running
 
 - Links:
-- https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript
-- https://exploringjs.com/impatient-js/
-
+- [Treinar Javascript no JSBin] (http://jsbin.com/?js,console)
+- [MDN Learn Javascript] (https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript)
+- [Book Online] (https://exploringjs.com/js/book/index.html)
 
 
 ```html
