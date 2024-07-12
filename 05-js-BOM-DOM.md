@@ -60,7 +60,3 @@ console.log(CTA.attributes);
 .createTextNode();   // Cria um nó de texto
 .apppendChild();     // Coloca um nó filho dentro de outro
 ```
-
-
-
-

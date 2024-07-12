@@ -52,8 +52,8 @@ function Curso2(titulo, instrutora, nivel, dataPublicacao, numeroVisualizacoes){
   }
   
   var cursos = [
-      new Curso2("HTML, CSS, JS", "Amanda C", 1, false, 0),
-      new Curso2("HTML, CSS, JS", "Amanda C", 1, true, 454242352)
+      new Curso2("HTML, CSS, JS, Angular, React", "Luna C", 1, false, 0),
+      new Curso2("HTML, CSS, JS, Angular, React", "Luna C", 1, true, 454242352)
   ]
   console.log(cursos);
 ```
