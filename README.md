@@ -18,6 +18,7 @@ Será abordado conceitos básicos com a sintaxe e exemplos práticos para estudo
 7. **[Comparison](#7-Comparison)**
 8. **[Scope](#8-Scope)**
 9. **[Expressions and Statements](#9-expressions-x-statements)**
+10. **[IIFE](#10-iife)**
 
 
 ## 1. Intro
@@ -529,3 +530,25 @@ Caso queira saber se algo é uma expressão ou uma declaração, utilize o bom e
 
 ---
 
+## 10. IIFE
+
+### IIFEs Funções autoinvocadas
+IIFE não tem relação nenhuma com if e else. As IIFEs ou Immediately Invoked Function Expression, são funções lidas e invocadas automaticamente em tempo de execução do código.
+Exemplo:
+
+```jsx
+// Código fora da IIFE 
+var nome = "Cici"; 
+
+(function() { 
+  // Código dentro da IIFE, é lido e executado
+  var nome = "Lunna"; 
+  console.log(nome); // Saída 1: Lunna 
+})(); 
+
+console.log(nome); // Saída 2: Cici 
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
